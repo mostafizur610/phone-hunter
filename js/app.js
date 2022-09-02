@@ -107,6 +107,7 @@ const displayPhoneDetails = phone => {
     <p>Release Date: ${phone.releaseDate ? phone.releaseDate : 'No Release Date'}</p>
     <p>Storage: ${phone.mainFeatures ? phone.mainFeatures.storage : 'No Storage Info found'}</p>
     <p>Others: ${phone.others ? phone.others.Bluetooth : 'No Bluetooth Info'}</p>
+    <p>Sensor: ${phone.mainFeatures.sensors ? phone.mainFeatures.sensors[0] : 'No sensor found'}</p>
     `;
 }
 
